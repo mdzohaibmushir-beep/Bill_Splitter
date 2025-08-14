@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple and interactive bill splitter calculator">
+    <meta name="keywords" content="bill splitter, split bill, JavaScript project">
+    <meta name="author" content="Your Name">
+    <title>Bill Splitter</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💰 Bill Splitter</h1>
+
+        <label>Total Bill Amount:</label>
+        <input type="number" id="bill-amount" placeholder="Enter amount">
+
+        <label>Number of People:</label>
+        <input type="number" id="people-count" placeholder="Enter people count">
+
+        <label>Tip Percentage:</label>
+        <input type="number" id="tip-percentage" placeholder="Enter tip %">
+
+        <button id="calculate-btn">Calculate</button>
+
+        <div class="result">
+            <p id="per-person">Each Person Pays: ₹0</p>
+            <p id="total-with-tip">Total with Tip: ₹0</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
